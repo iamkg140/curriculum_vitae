@@ -78,11 +78,11 @@ WSGI_APPLICATION = 'curriculum_vitae.wsgi.application'
 DATABASES = {
     'default': {
   'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'curriculum_vitae',
-        'USER' : 'root',
-        'PASSWORD' : 'password',
-        'PORT' : '3306',
-        'HOST' : '127.0.0.1',
+        # 'NAME': 'curriculum_vitae',
+        # 'USER' : 'root',
+        # 'PASSWORD' : 'password',
+        # 'PORT' : '3306',
+        # 'HOST' : '127.0.0.1',
     }
 }
 
